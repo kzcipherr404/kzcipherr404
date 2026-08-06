@@ -66,7 +66,7 @@ Difficulty:
 # 🌳 SKILL TREE
 
 ```
-Python              ████████████████████░░
+Python               ███████████████████░░
 Cybersecurity        █████████████████░░░░
 Networking           ████████████████░░░░░
 Cryptography         ███████████████░░░░░░
