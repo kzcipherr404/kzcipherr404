@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=00FF9C&center=true&vCenter=true&width=600&lines=Cybersecurity+Operative;AI+%2B+Automation+Builder;Currently+Grinding%3A+CTF+%2B+Python;Status%3A+Building%2C+Not+Just+Planning" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=00FF9C&center=true&vCenter=true&width=600&lines=Cybersecurity;AI+%2B+Automation+Builder;Currently+Grinding%3A+CTF+%2B+Python;Status%3A+Building%2C+Not+Just+Planning" alt="Typing SVG" />
 
 ![Profile Views](https://komarev.com/ghpvc/?username=kzcipherr404&color=00ff9c&style=flat-square&label=PROFILE+VIEWS)
 ![Followers](https://img.shields.io/github/followers/kzcipherr404?style=flat-square&color=00ff9c&label=FOLLOWERS)
