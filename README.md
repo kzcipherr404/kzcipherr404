@@ -1,93 +1,35 @@
-<div align="center">
+Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) My name is Kondwani Zulu
+======================================================================================================================================
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=00FF9C&center=true&vCenter=true&width=600&lines=Cybersecurity;AI+%2B+Automation+Builder;Currently+Grinding%3A+CTF+%2B+Python;Status%3A+Building%2C+Not+Just+Planning" alt="Typing SVG" />
+Cybersecurity, Web dev & Automation
+-----------------------------------
 
-![Profile Views](https://komarev.com/ghpvc/?username=kzcipherr404&color=00ff9c&style=flat-square&label=PROFILE+VIEWS)
-![Followers](https://img.shields.io/github/followers/kzcipherr404?style=flat-square&color=00ff9c&label=FOLLOWERS)
-![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/kzcipherr404&label=REPOS&query=$.public_repos&color=00ff9c&style=flat-square)
+I build secure web tools, automation projects, and experiments around cybersecurity and development.
 
-</div>
+* 🌍  I'm based in Zambia
+* 🖥️  See my portfolio at [MyPortfolio](http://kondwani-zulu.onrender.com/)
+* ✉️  You can contact me at [kondwanizzzz06@gmail.com](mailto:kondwanizzzz06@gmail.com)
+* 🚀  I'm currently working on [Ubuart - Zambian Art Portfolio Platform](http://github.com/kzcipherr404/ubuart)
 
----
+<p align="left">
+<a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/c-colored.svg" alt="C" title="C" width="36" height="36" /></a><a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" alt="C++" title="C++" width="36" height="36" /></a><a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" alt="Git" title="Git" width="36" height="36" /></a><a href="https://www.oracle.com/java/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg" alt="Java" title="Java" width="36" height="36" /></a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" alt="JavaScript" title="JavaScript" width="36" height="36" /></a><a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" alt="Python" title="Python" width="36" height="36" /></a><a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" alt="TypeScript" title="TypeScript" width="36" height="36" /></a><a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/gnubash-colored.svg" alt="GNU Bash" title="GNU Bash" width="36" height="36" /></a><a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/visualstudiocode-colored.svg" alt="VS Code" title="VS Code" width="36" height="36" /></a><a href="https://www.sublimetext.com/index2" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sublimetext-colored.svg" alt="Sublime Text" title="Sublime Text" width="36" height="36" /></a><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" alt="HTML5" title="HTML5" width="36" height="36" /></a><a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" alt="React" title="React" width="36" height="36" /></a><a href="https://nextjs.org/docs" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored-dark.svg" alt="NextJs" title="NextJs" width="36" height="36" /></a><a href="https://fastapi.tiangolo.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/fastapi-colored.svg" alt="Fast API" title="Fast API" width="36" height="36" /></a><a href="https://www.oracle.com/uk/index.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/oracle-colored.svg" alt="Oracle" title="Oracle" width="36" height="36" /></a><a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" alt="MySQL" title="MySQL" width="36" height="36" /></a><a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg" alt="PostgreSQL" title="PostgreSQL" width="36" height="36" /></a><a href="https://flask.palletsprojects.com/en/3.0.x/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/flask-colored-dark.svg" alt="Flask" title="Flask" width="36" height="36" /></a><a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" alt="Figma" title="Figma" width="36" height="36" /></a><a href="https://www.linux.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/linux-colored.svg" alt="Linux" title="Linux" width="36" height="36" /></a><a href="https://ubuntu.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/ubuntu-colored.svg" alt="Ubuntu" title="Ubuntu" width="36" height="36" /></a><a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/django-colored-dark.svg" alt="Django" title="Django" width="36" height="36" /></a><a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/docker-colored.svg" alt="Docker" title="Docker" width="36" height="36" /></a><a href="https://www.tensorflow.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tensorflow-colored.svg" alt="TensorFlow" title="TensorFlow" width="36" height="36" /></a>
+</p>
 
-### 🧾 CHARACTER SHEET
+### Socials
 
-```
-CLASS        : Cybersecurity Operative // AI Systems Builder
-BASE         : Ndola, Zambia
-CURRENT ARC  : Cybersecurity Framework for AI Adoption (Final-Year Project)
-GUILD        : Self-taught // Solo Dev
-STATUS       : ONLINE — shipping real systems, not just planning them
-```
+<p align="left"> <a href="https://www.github.com/kzcipherr404" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" alt="GitHub" title="GitHub" /> </picture> </a> <a href="https://www.linkedin.com/in/kondwani-zulu" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" alt="LinkedIn" title="LinkedIn" /> </picture> </a></p>
+### Badges
 
----
+<b>My GitHub Stats</b>
 
-### ⚔️ SKILL TREE
+<a href="http://www.github.com/kzcipherr404"><img src="https://github-readme-stats.vercel.app/api?username=kzcipherr404&show_icons=true&hide=&count_private=true&title_color=000000&text_color=ffffff&icon_color=ffffff&bg_color=27272a&hide_border=true&show_icons=true" alt="kzcipherr404's GitHub stats" /></a>
 
-```
-Python              ████████████████████░░  85%
-Cybersecurity        █████████████████░░░░░  75%
-Networking / OSINT   ████████████████░░░░░░  70%
-Cryptography         ███████████████░░░░░░░  65%
-AI / Automation      █████████████░░░░░░░░░  55%
-Web Dev (Flask)      ████████████████░░░░░░  70%
-```
+<a href="http://www.github.com/kzcipherr404"><img src="https://github-readme-streak-stats.herokuapp.com/?user=kzcipherr404&stroke=ffffff&background=27272a&ring=000000&fire=000000&currStreakNum=ffffff&currStreakLabel=000000&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
 
-<div align="center">
+### Support Me
 
-![Skills](https://skillicons.dev/icons?i=python,flask,html,css,mysql,git,github,vscode&theme=dark)
+<ul style="list-style-type: none; margin: 0;">
 
-</div>
+<li style="display: inline-block; margin-right: 0.25rem;"><a href="https://www.buymeacoffee.com/kondwanizulu"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="150"/></a></li>
 
----
-
-### 🗺️ QUEST LOG — ACTIVE
-
-| Status | Quest | Details |
-|:---:|---|---|
-| 🔄 | **Cybersecurity Framework for AI Adoption** | Final-year research project grounded in Zambia's National AI Strategy (2024–2026) |
-| 🔄 | **Ubuart** | Pinterest-style art portfolio/marketplace for Zambian artists, with paid tips & guides |
-| 🔄 | **Portrait Grid Tool** | Web app for artists — upload a reference photo, overlay gridlines, adjust grayscale, export |
-| 🔄 | **Zambia Booking Platform** | Order/booking dashboard for small food & catering vendors, with WhatsApp order alerts |
-| 🎯 | **CTF Grind** | Ongoing challenges across forensics, crypto (RSA/XOR/ECDSA), PCAP analysis & steganography |
-
-### 🏆 QUEST LOG — COMPLETED
-
-| Repo | Loot |
-|---|---|
-| [Password Auditor](https://github.com/kzcipherr404/-Password-Auditor) | Password strength analyzer — entropy & weakness detection |
-| [Cybersecurity Student Toolkit](https://github.com/kzcipherr404/cybersecurity-student-toolkit) | 5-script defensive security bundle (scanner, hash checker, log parser, password analyzer, geolocation) |
-| [ExcelFlow AI](https://github.com/kzcipherr404/excelflow-ai) | AI-powered automation tool |
-| [Python Automation](https://github.com/kzcipherr404/python-automation) | Automation scripting collection |
-| [Website Scraper](https://github.com/kzcipherr404/website_scraper-) | Web scraping tool |
-| [Ecommerce Price Scraper](https://github.com/kzcipherr404/Ecommerce-Price-Scraper-) | Flask dashboard — price history tracking, CSV/JSON export |
-
----
-
-### 📊 STATS
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=kzcipherr404&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kzcipherr404&layout=compact&theme=tokyonight&hide_border=true" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=kzcipherr404&theme=tokyonight&hide_border=true" />
-
-<img src="https://github-profile-trophy.vercel.app/?username=kzcipherr404&theme=tokyonight&no-frame=true&row=1&column=6" />
-
-</div>
-
----
-
-### 📡 CONNECT
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kondwani-zulu-615927280/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/kondwaniiii/)
-
-</div>
-
-<div align="center">
-<sub>💬 "Improve 1% every day. Execute even when you don't feel like it."</sub>
-</div>
+</ul>
