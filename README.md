@@ -126,6 +126,7 @@ Machine Learning     ██████████░░░░░░░░░�
 | Ecommerce Price Scraper | 📊 +20 Analytics |
 | IOC_Extractor | +15 Data Collection |
 | GridSight| +20 Creativity|
+| Whatsapp RAG BOT| +15 AI Automation|
 
 ---
 
