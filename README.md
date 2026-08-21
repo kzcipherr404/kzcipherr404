@@ -125,6 +125,7 @@ Machine Learning     ██████████░░░░░░░░░�
 | Website Scraper | 🌐 +15 Data Collection |
 | Ecommerce Price Scraper | 📊 +20 Analytics |
 | IOC_Extractor | +15 Data Collection |
+| GridSight| +20 Creativity|
 
 ---
 
