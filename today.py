@@ -10,14 +10,17 @@ import hashlib
 # Account permissions: read:Followers, read:Starring, read:Watching
 # Repository permissions: read:Commit statuses, read:Contents, read:Issues, read:Metadata, read:Pull Requests
 # Issues and pull requests permissions not needed at the moment, but may be used in the future
-HEADERS = {'authorization': 'token '+ os.environ['ACCESS_TOKEN']}
-USER_NAME = os.environ['USER_NAME'] # 'Andrew6rant'
+ACCESS_TOKEN = os.environ.get('ACCESS_TOKEN')
+if not ACCESS_TOKEN:
+    raise ValueError("ACCESS_TOKEN environment variable is not set. Please set your GitHub Personal Access Token.")
+HEADERS = {'authorization': 'token ' + ACCESS_TOKEN}
+USER_NAME = os.environ.get('USER_NAME', 'kzcipherr404')
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
 
 
 def daily_readme(birthday):
     """
-    Returns the length of time since I was born
+    Returns the length of time since date
     e.g. 'XX years, XX months, XX days'
     """
     diff = relativedelta.relativedelta(datetime.datetime.today(), birthday)
@@ -439,16 +442,23 @@ def formatter(query_type, difference, funct_return=False, whitespace=0):
 
 if __name__ == '__main__':
     """
-    Andrew Grant (Andrew6rant), 2022-2025
+    Customized for kzcipherr404
     """
     print('Calculation times:')
     # define global variable for owner ID and calculate user's creation date
-    # e.g {'id': 'MDQ6VXNlcjU3MzMxMTM0'} and 2019-11-03T21:15:07Z for username 'Andrew6rant'
     user_data, user_time = perf_counter(user_getter, USER_NAME)
     OWNER_ID, acc_date = user_data
     formatter('account data', user_time)
-    age_data, age_time = perf_counter(daily_readme, datetime.datetime(2002, 7, 5))
-    formatter('age calculation', age_time)
+
+    # UPTIME CALCULATION:
+    # Option 1: GitHub account age (default)
+    acc_created = datetime.datetime.strptime(acc_date, "%Y-%m-%dT%H:%M:%SZ")
+    age_data, age_time = perf_counter(daily_readme, acc_created)
+    # Option 2: If you prefer your real age, uncomment the two lines below and set your birthday:
+    # BIRTHDAY = datetime.datetime(2000, 1, 1) # Year, Month, Day
+    # age_data, age_time = perf_counter(daily_readme, BIRTHDAY)
+    formatter('uptime calculation', age_time)
+
     total_loc, loc_time = perf_counter(loc_query, ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'], 7)
     formatter('LOC (cached)', loc_time) if total_loc[-1] else formatter('LOC (no cache)', loc_time)
     commit_data, commit_time = perf_counter(commit_counter, 7)
@@ -457,8 +467,8 @@ if __name__ == '__main__':
     contrib_data, contrib_time = perf_counter(graph_repos_stars, 'repos', ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'])
     follower_data, follower_time = perf_counter(follower_getter, USER_NAME)
 
-    # several repositories that I've contributed to have since been deleted.
-    if OWNER_ID == {'id': 'MDQ6VXNlcjU3MzMxMTM0'}: # only calculate for user Andrew6rant
+    # Archive check (for deleted repos)
+    if OWNER_ID == {'id': 'MDQ6VXNlcjU3MzMxMTM0'}:
         archived_data = add_archive()
         for index in range(len(total_loc)-1):
             total_loc[index] += archived_data[index]
