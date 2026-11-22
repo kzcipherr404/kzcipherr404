@@ -9,11 +9,8 @@ import hashlib
 # Fine-grained personal access token with All Repositories access:
 # Account permissions: read:Followers, read:Starring, read:Watching
 # Repository permissions: read:Commit statuses, read:Contents, read:Issues, read:Metadata, read:Pull Requests
-# Issues and pull requests permissions not needed at the moment, but may be used in the future
-ACCESS_TOKEN = os.environ.get('ACCESS_TOKEN')
-if not ACCESS_TOKEN:
-    raise ValueError("ACCESS_TOKEN environment variable is not set. Please set your GitHub Personal Access Token.")
-HEADERS = {'authorization': 'token ' + ACCESS_TOKEN}
+ACCESS_TOKEN = os.environ.get('ACCESS_TOKEN', '')
+HEADERS = {'authorization': 'token ' + ACCESS_TOKEN} if ACCESS_TOKEN else {}
 USER_NAME = os.environ.get('USER_NAME', 'kzcipherr404')
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
 
@@ -325,6 +322,7 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib
     """
     tree = etree.parse(filename)
     root = tree.getroot()
+    justify_format(root, 'age_data', age_data, 22)
     justify_format(root, 'commit_data', commit_data, 22)
     justify_format(root, 'star_data', star_data, 14)
     justify_format(root, 'repo_data', repo_data, 6)
@@ -444,18 +442,22 @@ if __name__ == '__main__':
     """
     Customized for kzcipherr404
     """
+    if not ACCESS_TOKEN:
+        raise ValueError("ACCESS_TOKEN environment variable is not set. Please set your GitHub Personal Access Token.")
+
     print('Calculation times:')
-    # define global variable for owner ID and calculate user's creation date
     user_data, user_time = perf_counter(user_getter, USER_NAME)
     OWNER_ID, acc_date = user_data
     formatter('account data', user_time)
 
-    # UPTIME CALCULATION:
-    # Option 1: GitHub account age (default)
-    acc_created = datetime.datetime.strptime(acc_date, "%Y-%m-%dT%H:%M:%SZ")
-    age_data, age_time = perf_counter(daily_readme, acc_created)
-    # Option 2: If you prefer your real age, uncomment the two lines below and set your birthday:
-    BIRTHDAY = datetime.datetime(2006, 5, 27) # Year, Month, Day
+    # UPTIME / BIRTHDAY CALCULATION:
+    # Automatically updates your age every single day!
+    birthday_str = os.environ.get('BIRTHDAY', '2006-05-27')
+    try:
+        BIRTHDAY = datetime.datetime.strptime(birthday_str, '%Y-%m-%d')
+    except ValueError:
+        BIRTHDAY = datetime.datetime(2006, 5, 27)
+
     age_data, age_time = perf_counter(daily_readme, BIRTHDAY)
     formatter('uptime calculation', age_time)
 
