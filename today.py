@@ -455,8 +455,8 @@ if __name__ == '__main__':
     acc_created = datetime.datetime.strptime(acc_date, "%Y-%m-%dT%H:%M:%SZ")
     age_data, age_time = perf_counter(daily_readme, acc_created)
     # Option 2: If you prefer your real age, uncomment the two lines below and set your birthday:
-    # BIRTHDAY = datetime.datetime(2000, 1, 1) # Year, Month, Day
-    # age_data, age_time = perf_counter(daily_readme, BIRTHDAY)
+    BIRTHDAY = datetime.datetime(2006, 5, 27) # Year, Month, Day
+    age_data, age_time = perf_counter(daily_readme, BIRTHDAY)
     formatter('uptime calculation', age_time)
 
     total_loc, loc_time = perf_counter(loc_query, ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'], 7)
